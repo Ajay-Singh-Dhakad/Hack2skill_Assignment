@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-18T18:07:07 IST" name="Suite" finished-at="2023-07-18T18:07:30 IST" duration-ms="22917">
+    <groups>
+    </groups>
+    <test started-at="2023-07-18T18:07:07 IST" name="Test" finished-at="2023-07-18T18:07:30 IST" duration-ms="22917">
+      <class name="Com.tests.File_Upload">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:Com.tests.File_Upload@564fabc8]" started-at="2023-07-18T18:07:23 IST" name="startTest" finished-at="2023-07-18T18:07:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="Upload_File()[pri:0, instance:Com.tests.File_Upload@564fabc8]" started-at="2023-07-18T18:07:23 IST" name="Upload_File" finished-at="2023-07-18T18:07:30 IST" duration-ms="7268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_File -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.tests.File_Upload@564fabc8]" started-at="2023-07-18T18:07:30 IST" name="getResult" finished-at="2023-07-18T18:07:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Upload_File status=SUCCESS method=File_Upload.Upload_File()[pri:0, instance:Com.tests.File_Upload@564fabc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Com.tests.File_Upload@564fabc8]" started-at="2023-07-18T18:07:30 IST" name="endTest" finished-at="2023-07-18T18:07:30 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Com.tests.File_Upload -->
+      <class name="Com.tests.Validating_Broken_Images">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:Com.tests.Validating_Broken_Images@399f45b1]" started-at="2023-07-18T18:07:07 IST" name="startTest" finished-at="2023-07-18T18:07:08 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="ValidatingBrokenImages()[pri:0, instance:Com.tests.Validating_Broken_Images@399f45b1]" started-at="2023-07-18T18:07:08 IST" name="ValidatingBrokenImages" finished-at="2023-07-18T18:07:23 IST" duration-ms="15199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingBrokenImages -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.tests.Validating_Broken_Images@399f45b1]" started-at="2023-07-18T18:07:23 IST" name="getResult" finished-at="2023-07-18T18:07:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatingBrokenImages status=SUCCESS method=Validating_Broken_Images.ValidatingBrokenImages()[pri:0, instance:Com.tests.Validating_Broken_Images@399f45b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:Com.tests.Validating_Broken_Images@399f45b1]" started-at="2023-07-18T18:07:23 IST" name="endTest" finished-at="2023-07-18T18:07:23 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Com.tests.Validating_Broken_Images -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
